@@ -1,0 +1,29 @@
+FROM ubuntu:18.04
+
+RUN apt-get -y update
+
+RUN apt-get -y upgrade
+
+RUN apt-get install -y software-properties-common
+
+RUN apt-get install -y apt-utils
+
+RUN apt-get install net-tools
+
+RUN apt-get install nano
+
+RUN apt-get install -y iputils-ping
+
+RUN apt-get install -y ufw
+
+RUN apt-get install -y curl
+
+RUN apt-get install -y iperf
+
+RUN apt-get install -y iperf3
+
+RUN apt-get -y update
+
+RUN apt-get install -y nmap
+
+RUN apt-get -y upgrade
